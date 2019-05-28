@@ -1,0 +1,28 @@
+@CHARSET "UTF-8";
+
+/*カート画面*/
+
+#cartbox {
+	width : 60%;
+	margin : 30px auto;
+	text-align : right;
+}
+
+#left_cartBox {
+	display : inline-block;
+	padding-right : 40%;
+}
+
+#right_cartBox {
+	display : inline-block;
+	padding-left : 20%;
+}
+.btn:disabled {
+	background-image: none;
+    background-color: #4b7ea1;
+    border-color: #4b7ea1;
+    background: -webkit-gradient(linear, left top, left bottom, from(#4b7ea1), to(#ccc) );
+    background: -moz-linear-gradient(-90deg, #4b7ea1, #ccc);
+    filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#81a8cb', endColorstr='#4477a1');
+	opacity: 0.5;
+}
